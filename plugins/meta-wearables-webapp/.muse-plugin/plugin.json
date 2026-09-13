@@ -1,13 +1,79 @@
 {
+  "schemaVersion": 1,
   "name": "meta-wearables-webapp",
+  "displayName": "Meta Wearables Webapp",
   "version": "127.0.0",
   "description": "Skills for building Meta Display Glasses webapps",
-  "author": {
-    "name": "Meta Wearables"
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
   },
-  "homepage": "https://github.com/pampas93/meta-wearables-webapp",
-  "repository": "https://github.com/pampas93/meta-wearables-webapp",
-  "license": "BSD-3-Clause",
-  "keywords": ["meta", "display-glasses", "wearables", "webapp", "vercel"],
-  "skills": ["./skills/"]
+  "capabilities": {
+    "skills": [
+      {
+        "id": "add-device-sensors",
+        "path": "skills/add-device-sensors/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "add-gestures",
+        "path": "skills/add-gestures/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "add-local-storage",
+        "path": "skills/add-local-storage/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "add-offline",
+        "path": "skills/add-offline/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "add-text-input",
+        "path": "skills/add-text-input/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "add-ui",
+        "path": "skills/add-ui/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "connect-api",
+        "path": "skills/connect-api/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "create-webapp",
+        "path": "skills/create-webapp/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "passcode-for-testing",
+        "path": "skills/passcode-for-testing/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "publish-to-vercel",
+        "path": "skills/publish-to-vercel/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "qr-code",
+        "path": "skills/qr-code/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "test-on-device",
+        "path": "skills/test-on-device/SKILL.md",
+        "enabledDefault": true
+      }
+    ],
+    "commands": [],
+    "hooks": [],
+    "mcpServers": [],
+    "reminders": []
+  }
 }
