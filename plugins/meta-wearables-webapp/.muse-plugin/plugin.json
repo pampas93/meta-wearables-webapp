@@ -1,0 +1,13 @@
+{
+  "name": "meta-wearables-webapp",
+  "version": "127.0.0",
+  "description": "Skills for building Meta Display Glasses webapps",
+  "author": {
+    "name": "Meta Wearables"
+  },
+  "homepage": "https://github.com/pampas93/meta-wearables-webapp",
+  "repository": "https://github.com/pampas93/meta-wearables-webapp",
+  "license": "BSD-3-Clause",
+  "keywords": ["meta", "display-glasses", "wearables", "webapp", "vercel"],
+  "skills": ["./skills/"]
+}
